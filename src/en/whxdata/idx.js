@@ -1,1 +1,0 @@
-gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><index>  <chunkinfo url=\"idata1.js\" first=\"Add\" last=\"Open\" num=\"106\" />  <chunkinfo url=\"idata2.js\" first=\"Overview\" last=\"Update your name\" num=\"101\" />  <chunkinfo url=\"idata3.js\" first=\"Upload an answer\" last=\"Versification\" num=\"16\" />  </index>";

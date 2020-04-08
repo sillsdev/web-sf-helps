@@ -1,1 +1,0 @@
-gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Avatar\" to=\"Community Checking tasks overview\" num=\"47\"/><ck fm=\"Delete an answer or comment\" to=\"User Interface overview\" num=\"18\"/></cki>";
