@@ -7,7 +7,7 @@ Setup AWS CLI including credentials. See https://docs.aws.amazon.com/cli/latest/
 Run
 ```bash
 cd src/en/
-aws s3 sync s3://help.scriptureforge.org/en .
+aws s3 sync s3://help.scriptureforge.org/en . --exact-timestamps
 ```
 
 Look at the git differences to see which HTML files need to be updated in *Crowdin*. After updating commit the differences.
