@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
-	<head>
- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<head><style>body.media-desktop div.searchresults.search-sidebar a.gs-title { color: #1155CC; }</style>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes">
 		<meta name="generator" content="Adobe RoboHelp 2019">
@@ -31,15 +31,15 @@
  <link rel="stylesheet" type="text/css" href="template/styles/layout.min.css">
 <script type="text/javascript" src="template/scripts/mhfhost.js"></script>
 <script type="text/javascript" src="template/scripts/search.js"></script>
-<script type="text/javascript" >
+<script type="text/javascript">
 gRootRelPath = ".";
 gCommonRootRelPath = ".";
 </script>
-<script type="text/javascript" >
+<script type="text/javascript">
 gTopicFrameName = "rh_default_topic_frame_name";
 gDefaultTopic = "#Overview/Getting_Started.htm";
 </script>
- <link rel="SHORTCUT ICON" href="favicon.png" />
+ <link rel="SHORTCUT ICON" href="favicon.png">
 </head>
 
 	<body class="hide-children loading" data-rhwidget="Basic" data-class="media-desktop: KEY_SCREEN_DESKTOP; media-landscape: KEY_SCREEN_TABLET; media-mobile: KEY_SCREEN_PHONE; ios: KEY_SCREEN_IOS" data-controller="ModernLayoutController: mc; JsLoadingController" data-attr="dir:KEY_DIR">
@@ -48,7 +48,7 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 
 
 		<div class="header" data-class="mobile-header-visible: @.l.mobile_header_visible" role="banner">
-      <a data-click="$hc.goToHome() && (!(@KEY_SCREEN_DESKTOP || @KEY_SCREEN_TABLET) && @KEY_ACTIVE_TAB(null))" data-attr="title: @KEY_LNG.HomeButton; aria-label: @KEY_LNG.HomeButton; title:@KEY_LNG.HomeButton;href:rh.consts('DEFAULT_TOPIC')" >
+      <a data-click="$hc.goToHome() && (!(@KEY_SCREEN_DESKTOP || @KEY_SCREEN_TABLET) && @KEY_ACTIVE_TAB(null))" data-attr="title: @KEY_LNG.HomeButton; aria-label: @KEY_LNG.HomeButton; title:@KEY_LNG.HomeButton;href:rh.consts('DEFAULT_TOPIC')">
 				<div class="logo" data-attr="title:@KEY_LNG.HomeButton">
 			&nbsp;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.HomeButton"></span>
 				</div>
@@ -70,23 +70,13 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 		<!-- Function bar with TOC/IDS/GLO/FILTER/FTS buttons -->
 		<div class="functionbar" data-css="width: sidebar_width | screen: 'desktop'" data-class="sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; " role="dialog">
 			<div class="nav" data-class="no-filter: !@KEY_FEATURE.filter" role="navigation">
-				<a class="toc" data-if="KEY_FEATURE.toc" data-class="active: @KEY_ACTIVE_TAB == 'toc'" data-click="$mc.toggleActiveTab('toc')"
-						data-attr="title:@KEY_LNG.TableOfContents; href: '#'; aria-hidden: !@KEY_FEATURE.toc">
+				<a class="toc" data-if="KEY_FEATURE.toc" data-class="active: @KEY_ACTIVE_TAB == 'toc'" data-click="$mc.toggleActiveTab('toc')" data-attr="title:@KEY_LNG.TableOfContents; href: '#'; aria-hidden: !@KEY_FEATURE.toc">
 					&#160;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.TableOfContents"></span>
 				</a>
-				<a class="idx" data-if="KEY_FEATURE.idx" data-class="active: @KEY_ACTIVE_TAB == 'idx'" data-click="$mc.toggleActiveTab('idx')"
-						data-attr="title:@KEY_LNG.Index; href: '#'; aria-hidden: !@KEY_FEATURE.idx">
-					&#160;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Index"></span>
-				</a>
-				<a class="glo" data-if="KEY_FEATURE.glo" data-class="active: @KEY_ACTIVE_TAB == 'glo'" data-click="$mc.toggleActiveTab('glo')" data-attr="title:@KEY_LNG.Glossary; href: '#'; aria-hidden: !@KEY_FEATURE.glo">
-					&#160;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Glossary"></span>
-				</a>
-				<a class="filter" data-if="KEY_FEATURE.filter" data-class="active: @KEY_ACTIVE_TAB == 'filter'; filter-applied: @.l.tag_expression.length"
-						data-click="$mc.toggleActiveTab('filter')" data-attr="title:@KEY_LNG.Filter; href: '#'; aria-hidden: !@KEY_FEATURE.filter">
-					&#160;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Filter"></span>
-				</a>
-				<a class="fts" data-if="!@KEY_SCREEN_DESKTOP || @KEY_SEARCH_LOCATION == 'tabbar'" data-class="active: @KEY_ACTIVE_TAB == 'fts'; search-sidebar: @KEY_SEARCH_LOCATION == 'tabbar'"
-						data-click="$mc.toggleActiveTab('fts')" data-attr="title:@KEY_LNG.SearchTitle; href: '#'">
+				
+				
+				
+				<a class="fts" data-if="!@KEY_SCREEN_DESKTOP || @KEY_SEARCH_LOCATION == 'tabbar'" data-class="active: @KEY_ACTIVE_TAB == 'fts'; search-sidebar: @KEY_SEARCH_LOCATION == 'tabbar'" data-click="$mc.toggleActiveTab('fts')" data-attr="title:@KEY_LNG.SearchTitle; href: '#'">
 					&#160;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.SearchTitle"></span>
 				</a>
 			</div>
@@ -100,8 +90,7 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 				</div>
 			</div>
 			<ul class="toc" data-rhwidget="List: .p.toc" data-controller="TocController: toc" data-click="$toc.onClick(event)">
-				<li data-rif="item.type === 'item' || item.type === 'remoteitem'" data-i-class="$toc.class(item)" data-class="inactive: @bookid != '#{@pid}'" data-childorder="#{childOrder}"
-						data-rhtags="#{$toc.tags(item)}" data-itemid="#{@id}">
+				<li data-rif="item.type === 'item' || item.type === 'remoteitem'" data-i-class="$toc.class(item)" data-class="inactive: @bookid != '#{@pid}'" data-childorder="#{childOrder}" data-rhtags="#{$toc.tags(item)}" data-itemid="#{@id}">
 					<a data-itext="item.name" data-i-href="$toc.url(item, '#{@id}')"></a>
 				</li>
 				<li class="book" data-rif="item.type === 'book'" data-class="active: @bookid == '#{@id}'; inactive: @bookid != '#{@pid}' &amp;&amp; @bookid != '#{@id}'" data-childorder="#{childOrder}" data-itemkey="#{$toc.key(item.absRef, item.key)}" data-itemid="#{@id}" data-itemlevel="#{@level}" data-rhtags="#{$toc.tags(item)}">
@@ -113,7 +102,7 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 			</ul>
 		</div>
 		<!-- Index -->
-		<div class="idx-holder left-pane" data-css="width: sidebar_width | screen: 'desktop'" data-class="desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; layout-visible: @KEY_ACTIVE_TAB == 'idx'; "  data-scroll="@.l.load_more_index(true) | debounce: 50, delta: 100" role="dialog" data-attr="aria-hidden: @KEY_ACTIVE_TAB != 'idx'">
+		<div class="idx-holder left-pane" data-css="width: sidebar_width | screen: 'desktop'" data-class="desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; layout-visible: @KEY_ACTIVE_TAB == 'idx'; " data-scroll="@.l.load_more_index(true) | debounce: 50, delta: 100" role="dialog" data-attr="aria-hidden: @KEY_ACTIVE_TAB != 'idx'">
 			<div class="mobileheader" data-attr="aria-hidden: @KEY_SCREEN_MOBILE == true">
 				<span data-text="@KEY_LNG.Index"></span>
 				<div class="totopic" data-click="$mc.toggleActiveTab('')" data-attr="title:@KEY_LNG.Back">
@@ -158,7 +147,7 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 						<li class="treeitem GloAlphabet" data-rif="!$gc.exists($glossary.name)&amp;&amp;!$gc.isFiltered($glossary.name)">
 							<span class="GloAlphabetText" data-itext="$gc.alphaText($glossary.name)"></span>
 						</li>
-						<li class="treeitem"  data-rif="!$gc.isFiltered($glossary.name)">
+						<li class="treeitem" data-rif="!$gc.isFiltered($glossary.name)">
 							<div class="GlossTerm unselectable" data-type="11" data-i-title="$glossary.name" data-term="$glossary.name" data-click="@show.#{@index}(!@show.#{@index})">
 								<span class="GlossaryTermText" data-itext="$glossary.name"></span>
 							</div>
@@ -185,8 +174,7 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 			<a class="reset-button" data-attr="href: '#'; title: @KEY_LNG.Reset" data-click="$mc.setDefaultTagStates()" data-class="layout-visible: $mc.isTagStatesChanged(@KEY_TAG_EXPRESSION)">
 				<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Reset"></span>
 			</a>
-			<ul class="wFltOpts" data-rhwidget="List:KEY_MERGED_FILTER_KEY" data-controller="FilterController: fc" data-click="$fc.click(event)"
-	data-class="radio: @KEY_PROJECT_FILTER_TYPE == 'radio'; checkbox: @KEY_PROJECT_FILTER_TYPE == 'checkbox'">
+			<ul class="wFltOpts" data-rhwidget="List:KEY_MERGED_FILTER_KEY" data-controller="FilterController: fc" data-click="$fc.click(event)" data-class="radio: @KEY_PROJECT_FILTER_TYPE == 'radio'; checkbox: @KEY_PROJECT_FILTER_TYPE == 'checkbox'">
 				<li data-i-class="$fc.class(item)" data-itemkey="#{@path}" data-itemvalue="#{name}">
 					<input data-rif="$fc.inputType(item) == 'checkbox'" data-i-id="'filter#{@id}'" type="checkbox" data-i-value="#{@index}" data-i-aria-labelledby="filter-label-#{@id}">
 					<input data-rif="$fc.inputType(item) == 'radio'" data-i-id="'filter#{@id}'" type="radio" data-i-name="'filter_name#{@pid}'" data-i-value="'#{@index}'" data-i-aria-labelledby="filter-label-#{@id}">
@@ -201,68 +189,12 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 			</a>
 		</div>
 		<!-- Search field -->
-		<div class="searchbar left-pane" data-css="width: sidebar_width | screen: 'desktop'" data-class="searchpage-mode, layout-visible: @KEY_ACTIVE_TAB == 'fts'; sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; search-sidebar: @KEY_SEARCH_LOCATION == 'tabbar'; search-content: @KEY_SEARCH_LOCATION == 'content';searchbar-open:@focusin_main_searchbox && @SEARCH_RESULTS_KEY!== undefined &&  (@SEARCH_RESULTS_KEY).length>0;searchbar-mobile:KEY_SCREEN_PHONE" data-controller="SearchController:sc" role="dialog" data-attr="aria-hidden: @KEY_ACTIVE_TAB != 'fts'">
+		<div class="searchbar left-pane" data-css="width: sidebar_width | screen: 'desktop'" data-class="searchpage-mode, layout-visible: @KEY_ACTIVE_TAB == 'fts'; sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; search-sidebar: @KEY_SEARCH_LOCATION == 'tabbar'; search-content: @KEY_SEARCH_LOCATION == 'content';searchbar-open:@focusin_main_searchbox && @SEARCH_RESULTS_KEY!== undefined &&  (@SEARCH_RESULTS_KEY).length>0;searchbar-mobile:KEY_SCREEN_PHONE" data-controller="SearchController:sc" role="dialog" data-attr="aria-hidden: @KEY_ACTIVE_TAB != 'fts'"><script async="" src="https://cse.google.com/cse.js?cx=9f727aa1dd179dd6d"></script>
 			<div class="mobileheader"><span data-text="@KEY_LNG.SearchPageTitle"></span><div class="totopic" data-if="@KEY_ACTIVE_TAB == 'fts'" data-click="$mc.toggleActiveTab('')" data-attr="title:@KEY_LNG.Back"></div></div>
-			<div class="search-input" data-class="search-input-open:@focusin_main_searchbox && @SEARCH_RESULTS_KEY!== undefined &&  (@SEARCH_RESULTS_KEY).length>0" data-if="$mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content)" data-attr="aria-hidden: !$mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content)" role="search">
-				<input class="wSearchField" type="text" data-class="no-filter: !@KEY_FEATURE.filter" data-attr="title, placeholder: @KEY_LNG.Search" data-value="KEY_SEARCH_TERM" data-keyup="$mc.newSearch(node.value, event.keyCode, event), $sc.handleKey(event)|debounce:150" data-focus="@focusin_main_searchbox(true)" data-blur="$sc.handleFocusOut('focusin_main_searchbox')|timeout:200">
-				<a class="wSearchLink" data-click="@EVT_SEARCH_TERM(true)" data-attr="href: '#'" data-if="@KEY_SCREEN_PHONE">&nbsp;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Search"></span>
-				</a>
-
-				<div data-if="@focusin_main_searchbox && @SEARCH_RESULTS_KEY!== undefined &&  (@SEARCH_RESULTS_KEY).length>0" class="search-list" >
-					<table data-class="search-table-desktop:KEY_SCREEN_DESKTOP; search-table-mobile:KEY_SCREEN_PHONE; search-table-tablet:KEY_SCREEN_TABLET">
-						<tr data-repeat="search_results" data-class="search-suggestion:true; search-selected:@selected===#{@index}" data-click="$sc.handleClick(#{@index})">
-							<td class="search-text-column">
-								<div class="search-text" data-itext="item.term"></div>
-							</td>
-							<td>
-								<div class="search-delete" data-if="$sc.canDelete(#{@index})" data-click="$sc.handleDelete(#{@index})"></div>
-							</td>
-						</tr>
-					</table>
-				</div>
-			</div>
+			<div class="search-input" data-class="search-input-open:@focusin_main_searchbox && @SEARCH_RESULTS_KEY!== undefined &&  (@SEARCH_RESULTS_KEY).length>0" data-if="$mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content)" data-attr="aria-hidden: !$mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content)" role="search"><div style="margin: 10px"><div class="gcse-searchbox"></div></div></div>
 		</div>
 		<!-- Search results -->
-		<div class="searchresults left-pane" data-css="width: sidebar_width | screen: 'desktop'; left: sidebar_width | screen: 'desktop', dir: 'ltr'; right: sidebar_width | screen: 'desktop', dir: 'rtl'" data-class="sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; search-sidebar: @KEY_SEARCH_LOCATION == 'tabbar'; search-content: @KEY_SEARCH_LOCATION == 'content'; layout-visible: $mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content); " data-scroll="@.l.load_more_results(true) | debounce: 50, delta: 100"  role="dialog" data-attr="aria-hidden: !$mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content)">
-
-			<label class="wSearchAndLabelResults" data-if="KEY_FEATURE.andsearch" for="andsearch" data-class="active: @KEY_AND_SEARCH == '1'">
-				<span class="wSearchAND">Mostrar los resultados con todas las palabras de búsqueda</span>
-			</label>
-			<input id="andsearch" type="checkbox" value="1" class="wSearchANDCheckbox" data-checked="KEY_AND_SEARCH">
-
-			<div class="wSearchResults" id="searchresults">
-			<div class="wSearchResultSettings rh-hide" aria-hidden="true">
-				<div class="wSearchHighlight">
-					<input id="highlightsearch" type="checkbox" checked="" class="wSearchHighlight" aria-labelledby="highlightlabel" onclick="onToggleHighlightSearch()" />
-					<label for="highlightsearch" data-html="@KEY_LNG.HighlightSearchResults" id="highlightlabel"></label>
-				</div>
-			</div>
-			<div class="wSearchMessage" data-if="!@EVT_SEARCH_IN_PROGRESS" data-attr="aria-hidden: @EVT_SEARCH_IN_PROGRESS">
-				<span id="searchMsg" class="wSearchMessage"></span>
-			</div>
-			<div data-class="loading: EVT_SEARCH_IN_PROGRESS" data-if="EVT_SEARCH_IN_PROGRESS" data-attr="aria-hidden: @EVT_SEARCH_IN_PROGRESS"></div>
-			<p class="progressbar" data-if="KEY_SEARCH_PROGRESS">
-				<span data-text="KEY_SEARCH_PROGRESS"></span>%</p>
-			<div class="wSearchResultItemsBlock" data-if="!@EVT_SEARCH_IN_PROGRESS">
-				<div data-rhwidget="List: key: @.p.searchresults, spliton: index % @MAX_RESULTS == 14" data-config="loadmore: '.l.load_more_results', loaded: '.l.results_loaded'">
-					<div class="wSearchResultItem">
-						<a class="nolink" data-i-href="item.strUrl+@.p.searchresultparams">
-							<div class="wSearchResultTitle" data-itext="item.strTitle"></div>
-						</a>
-						<div class="wSearchContent">
-							<span class="wSearchContext" data-itext="item.strSummary"></span>
-						</div>
-						<div class="wSearchURL">
-							<span class="wSearchURL" data-itext="item.strBreadcrumbs"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div data-if="@.l.results_loaded && @.p.searchresults.length && !@EVT_SEARCH_IN_PROGRESS" class="wSearchResultsEnd">
-				<span>Fin de los resultados de la búsqueda.</span>
-			</div>
-			</div>
-		</div>
+		<div class="searchresults left-pane" data-css="width: sidebar_width | screen: 'desktop'; left: sidebar_width | screen: 'desktop', dir: 'ltr'; right: sidebar_width | screen: 'desktop', dir: 'rtl'" data-class="sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; search-sidebar: @KEY_SEARCH_LOCATION == 'tabbar'; search-content: @KEY_SEARCH_LOCATION == 'content'; layout-visible: $mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content); " data-scroll="@.l.load_more_results(true) | debounce: 50, delta: 100" role="dialog" data-attr="aria-hidden: !$mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content)"><div class="gcse-searchresults"></div></div>
 		<!-- Topics -->
 		<div class="topic main" data-css="left: sidebar_width | screen: 'desktop', dir: 'ltr'; right: sidebar_width | screen: 'desktop', dir: 'rtl'" data-class="sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; " role="main">
 			<div class="functionholder" role="banner">
@@ -283,23 +215,7 @@ gDefaultTopic = "#Overview/Getting_Started.htm";
 				</div>
 				<!-- Extra search field for desktop -->
 
-				<div class="searchbar-extra" data-if="KEY_SCREEN_DESKTOP" data-mouseover="@mousein_searchbox(true)" data-mouseout="@mousein_searchbox(false)" data-controller="SearchController:sc">
-					<input id="inp" class="wSearchField" type="text" data-class="searchpage-mode: @active_content == 'search'" data-attr="title, placeholder: @KEY_LNG.Search" data-focus="@focusin_searchbox(true)" data-blur="$sc.handleFocusOut('focusin_searchbox')|timeout:200" data-value="KEY_SEARCH_TERM" data-keyup="$mc.newSearch(node.value, event.keyCode),$sc.handleKey(event)|debounce:150">
-					<a class="wSearchLink" data-click="@EVT_SEARCH_TERM(true)" data-attr="href: '#'">&nbsp;<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Search"></span>
-					</a>
-					<div data-if="@focusin_searchbox && @SEARCH_RESULTS_KEY!== undefined &&  (@SEARCH_RESULTS_KEY).length>0" class="search-list" >
-						<table>
-							<tr data-repeat="search_results" data-class="search-suggestion:true; search-selected:@selected===#{@index}" data-click="$sc.handleClick(#{@index})">
-								<td class="search-text-column">
-									<div class="search-text" data-itext="item.term"></div>
-								</td>
-								<td>
-									<div class="search-delete" data-if="$sc.canDelete(#{@index})" data-click="$sc.handleDelete(#{@index})"></div>
-								</td>
-							</tr>
-						</table>
-					</div>
-				</div>
+				
 			</div>
 			<div class="topic-state" data-class="loading: EVT_TOPIC_LOADING" data-if="EVT_TOPIC_LOADING" data-attr="aria-hidden: !@EVT_TOPIC_LOADING" role="presentation"></div>
 			<iframe class="topic" name="rh_default_topic_frame_name"></iframe>
