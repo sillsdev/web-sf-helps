@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Aperçu des tâches de traduction","url":"Tasks/Translate_tasks/Translate_tasks_overview.htm"},{"type":"item","name":"Configurer les suggestions de traduction","url":"Tasks/Translate_tasks/Configure_translation_suggestions.htm"},{"type":"item","name":"Reformer le moteur de suggestions","url":"Tasks/Translate_tasks/Retrain_the_suggestion_engine.htm"},{"type":"item","name":"Intervertir la source et la cible","url":"Tasks/Translate_tasks/Swap_source_and_target.htm"},{"type":"item","name":"Traduire","url":"Tasks/Translate_tasks/Translate.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

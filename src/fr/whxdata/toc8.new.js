@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Vue d\u0027ensemble de l\u0027interface utilisateur","url":"User_Interface/User_Interface_overview.htm"},{"type":"item","name":"Aperçu des boîtes de dialogue","url":"User_Interface/Dialog_boxes.htm"},{"type":"item","name":"Raccourcis clavier","url":"User_Interface/Keyboard_shortcuts.htm"},{"type":"item","name":"Volet de navigation","url":"User_Interface/Navigation_pane.htm"},{"type":"item","name":"Barre d\u0027outils","url":"User_Interface/Toolbar.htm"},{"type":"item","name":"Barre d\u0027application supérieure","url":"User_Interface/Top_App_Bar.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();
