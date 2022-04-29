@@ -1,4 +1,1 @@
-(function() {
-var toc =  [{"type":"item","name":"Tasks overview","url":"Tasks/Tasks_overview.htm"},{"type":"book","name":"Administrator tasks","key":"toc4"},{"type":"book","name":"Basic tasks","key":"toc5"},{"type":"book","name":"Community Checking tasks","key":"toc6"},{"type":"book","name":"Translate tasks","key":"toc7"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();
+(function() {    var toc =  [{"name":"Tasks overview","type":"item","tilePath":"","description":"","url":"Tasks/Tasks_overview.htm"},{"name":"Administrator tasks","type":"book","tilePath":"","key":"toc4"},{"name":"Basic tasks","type":"book","tilePath":"","key":"toc5"},{"name":"Community Checking tasks","type":"book","tilePath":"","key":"toc6"},{"name":"Translate tasks","type":"book","tilePath":"","key":"toc7"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
