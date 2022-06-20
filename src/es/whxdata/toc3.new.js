@@ -1,4 +1,1 @@
-(function() {
-var toc =  [{"type":"item","name":"Resumen de tareas","url":"Tasks/Tasks_overview.htm"},{"type":"book","name":"Tareas de administrador","key":"toc4"},{"type":"book","name":"Tareas básicas","key":"toc5"},{"type":"book","name":"Tareas de Comprobación por la comunidad","key":"toc6"},{"type":"book","name":"Tareas de traducción","key":"toc7"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();
+(function() {    var toc =  [{"name":"Resumen de tareas","type":"item","tilePath":"","description":"","url":"Tasks/Tasks_overview.htm"},{"name":"Tareas de administrador","type":"book","tilePath":"","key":"toc4"},{"name":"Tareas básicas","type":"book","tilePath":"","key":"toc5"},{"name":"Tareas de Comprobación por la comunidad","type":"book","tilePath":"","key":"toc6"},{"name":"Tareas de traducción","type":"book","tilePath":"","key":"toc7"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

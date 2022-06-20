@@ -1,4 +1,1 @@
-(function() {
-var toc =  [{"type":"book","name":"Visão geral","key":"toc1"},{"type":"book","name":"Conceitos","key":"toc2"},{"type":"book","name":"Tarefas","key":"toc3"},{"type":"book","name":"Interface do Usuário","key":"toc8"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();
+(function() {    var toc =  [{"name":"Visão geral","type":"book","tilePath":"","key":"toc1"},{"name":"Conceitos","type":"book","tilePath":"","key":"toc2"},{"name":"Tarefas","type":"book","tilePath":"","key":"toc3"},{"name":"Interface do Usuário","type":"book","tilePath":"","key":"toc8"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
