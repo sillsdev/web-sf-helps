@@ -10,8 +10,11 @@
 		<% if(favicon && favicon.path && favicon.mediaType) { %>
 			<link rel='shortcut icon' type='<%= favicon.mediaType %>' href='<%= favicon.path %>' />
 		<% } %>
-		
+		<script>
+			gCSHRedirectHTM = '<%= gCSHRedirectHTM %>'
+		</script>
 		<link rel="StyleSheet" href="template/<%= layout.name %>/layout<%= html.rtl ? '-rtl' : '' %>.css" type="text/css" />
+		<script type="text/javascript" src="template/scripts/csh-trigger.min.js"></script>
 		<script type="text/javascript" src="template/scripts/rh.min.js"></script>
 		<script type="text/javascript" src="template/scripts/common.min.js"></script>
 		<script type="text/javascript" src="template/scripts/layout.min.js"></script>
