@@ -4,16 +4,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
-		<meta name="generator" content="Adobe RoboHelp 2020"/>
+		<meta name="generator" content="Adobe RoboHelp 2022"/>
 		<title>Scripture Forge Help</title>
 		
 			<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 		
-		<script>//<![CDATA[
-
-			gCSHRedirectHTM = 'csh-redirect.htm'
-		
-//]]></script>
+		<meta name="gCSHRedirectHTM" content="csh-redirect.htm"/>
+		<meta name="gRootRelPath" content="."/>
+		<meta name="gCommonRootRelPath" content="."/>
+		<meta name="gTopicFrameName" content="rh_default_topic_frame_name"/>
+		<meta name="gDefaultTopic" content="#Overview/Getting_Started.htm"/>
 		<link rel="StyleSheet" href="template/Charcoal_Grey/layout.css" type="text/css"/>
 		<script type="text/javascript" src="template/scripts/csh-trigger.min.js"></script>
 		<script type="text/javascript" src="template/scripts/rh.min.js"></script>
@@ -24,23 +24,11 @@
 		<link rel="stylesheet" type="text/css" href="template/styles/layout.min.css"/>
 	  <script type="text/javascript" src="whxdata/projectsettings.js"></script>
 		
-	  <script type="text/javascript">//<![CDATA[
-
-		gTopicFrameName = "rh_default_topic_frame_name";
-		gDefaultTopic = "#Overview/Getting_Started.htm";
-	
-//]]></script>
-	<script type="text/javascript">//<![CDATA[
-
-			gRootRelPath = ".";
-			gCommonRootRelPath = ".";
-	
-//]]></script>
-	</head>
+	<meta name="rh-version" content="2022.3.93"/></head>
 
 	<body class="hide-children loading" data-rhwidget="Basic" data-class="media-desktop: KEY_SCREEN_DESKTOP; media-landscape: KEY_SCREEN_TABLET; media-mobile: KEY_SCREEN_PHONE; ios: KEY_SCREEN_IOS" data-controller="ModernLayoutController: mc; JsLoadingController" data-attr="dir:KEY_DIR">
 		<div class="skip-to-content-container">
-			<button class="placeholder skip-to-content-link" data-trigger="EVT_FOCUS_ELEMENT_IN_IFRAME" data-attr="title:@KEY_LNG.SkipToMainContent; aria-label:@KEY_LNG.SkipToMainContent;" data-text="@KEY_LNG.SkipToMainContent" style="width: auto;" role="link"></button>
+			<button class="placeholder skip-to-content-link" data-trigger="EVT_FOCUS_ELEMENT_IN_IFRAME" data-attr="title:@KEY_LNG.SkipToMainContent; aria-label:@KEY_LNG.SkipToMainContent;" data-text="@KEY_LNG.SkipToMainContent" role="link"></button>
 		</div>
 		<div class="header" data-class="mobile-header-visible: @.l.mobile_header_visible" role="banner">
       <a data-click="$hc.goToHome() &amp;&amp; (!(@KEY_SCREEN_DESKTOP || @KEY_SCREEN_TABLET) &amp;&amp; @KEY_ACTIVE_TAB(null))" data-attr="title: @KEY_LNG.HomeButton; aria-label: @KEY_LNG.HomeButton; title:@KEY_LNG.HomeButton;href:rh.model.get(rh.consts(&#39;KEY_LOGO_URL&#39;)) || rh.consts(&#39;DEFAULT_TOPIC&#39;)">
@@ -48,20 +36,18 @@
 			 <span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.HomeButton"></span>
 				</div>
 			</a>
-			<div class="title">
+			<h1 class="title">
 				<a data-click="$hc.goToHome()" data-attr="title:@KEY_LNG.HomeButton; href: rh.model.get(rh.consts(&#39;KEY_LOGO_URL&#39;)) || rh.consts(&#39;DEFAULT_TOPIC&#39;)" tabindex="0">
 					Scripture Forge Help
 				</a>
-			</div>
+			</h1>
 			<div class="brs-holder">
 				<div class="brs_previous" data-attr="title:@KEY_LNG.Prev">
 					<a id="browseSeqBackLandscape" class="wBSBackButton" data-rhwidget="Basic" data-attr="href:.l.brsBack; aria-label:@KEY_LNG.Prev" data-css="visibility: @.l.brsBack?&#39;visible&#39;:&#39;hidden&#39;"> 
-						<span style="color:transparent; display: none;" data-html="@KEY_LNG.Prev"></span>
 					</a>
 				</div>
 				<div class="brs_next" data-attr="title:@KEY_LNG.Next">
 				<a id="browseSeqNextLandscape" class="wBSNextButton" data-rhwidget="Basic" data-attr="href:.l.brsNext; aria-label:@KEY_LNG.Next" data-css="visibility: @.l.brsNext?&#39;visible&#39;:&#39;hidden&#39;"> 
-					<span style="color:transparent; display: none;" data-html="@KEY_LNG.Next"></span>
 				</a>
 			</div>
 			</div>
@@ -122,14 +108,14 @@
 						<a data-rif="item.topics &amp;&amp; item.topics.length == 1" class="nolink IndexKeywordText" data-i-href="item.topics[0].url" data-itext="item.name">
 						</a>
 						<span class="IndexKeywordText IndexKeyword unselectable" data-itext="item.name" data-rif="item.topics &amp;&amp; item.topics.length != 1" data-i-title="item.name" data-click="@show.#{@id}(!@show.#{@id})"></span>
-						<ul data-if="@show.#{@id}" style="list-style-type: none;">
+						<ul data-if="@show.#{@id}">
 							<li data-repeat="i, topic:#{@itemkey}.topics" data-i-data-rhtags="$topic[&#39;data-rhtags&#39;]" data-rif="item.topics &amp;&amp; item.topics.length &gt; 1" class="IndexChildBlock IndexKeyword">
 								<a class="nolink IndexLink IndexLinkText" data-i-href="$topic.url" data-itext="$topic.name" data-i-title="$topic.name" data-i-aria-labelledby="$topic.name">
 								</a>
 							</li>
 						</ul>
 						<div class="IndexChildBlock" data-rif="item[&#39;keys&#39;]">
-							<ul class="child" data-child="#{@itemkey}.keys" style="list-style-type: none;"></ul>
+							<ul class="child" data-child="#{@itemkey}.keys"></ul>
 						</div>
 					</li>
 				</ul>
@@ -146,7 +132,7 @@
 			<div id="glo" class="Glossary" data-controller="GlossaryController: gc">
 				<input class="GloFilter" data-attr="placeholder, title:@KEY_LNG.GlossaryFilterTerms;" type="text" data-keyup="$gc.filterGlo(node.value)" aria-controls="glo-list"/>
 				<div class="noResults" data-text="@KEY_LNG.NoTermsFound" tabindex="0" data-css="display: @KEY_SHOW_GLOSSARY_MESSAGE ? &#39;block&#39; : &#39;none&#39;"></div>
-				<ul id="glo-list" style="list-style: none;">
+				<ul id="glo-list">
 					<div data-repeat="i, glossary: PROJECT_GLOSSARY_DATA" role="listitem">
 						<li class="treeitem GloAlphabet" data-rif="!$gc.exists($glossary.name)&amp;&amp;!$gc.isFiltered($glossary.name)" role="presentation">
 							<span class="GloAlphabetText" data-itext="$gc.alphaText($glossary.name)"></span>
@@ -180,8 +166,8 @@
 			</a>
 			<ul class="wFltOpts" data-rhwidget="List:KEY_MERGED_FILTER_KEY" data-controller="FilterController: fc" data-click="$fc.click(event)" data-keydown="if(event.keyCode == 13 || event.keyCode == 32){$fc.click(event); event.preventDefault();}" data-class="radio: @KEY_PROJECT_FILTER_TYPE == &#39;radio&#39;; checkbox: @KEY_PROJECT_FILTER_TYPE == &#39;checkbox&#39;">
 				<li data-i-class="$fc.class(item)" data-itemkey="#{@path}" data-itemvalue="#{name}">
-					<input data-rif="$fc.inputType(item) == &#39;checkbox&#39;" data-i-id="&#39;filter#{@id}&#39;" type="checkbox" data-i-value="#{@index}" data-i-aria-labelledby="filter-label-#{@id}" style="display:none"/>
-					<input data-rif="$fc.inputType(item) == &#39;radio&#39;" data-i-id="&#39;filter#{@id}&#39;" type="radio" data-i-name="&#39;filter_name#{@pid}&#39;" data-i-value="&#39;#{@index}&#39;" data-i-aria-labelledby="filter-label-#{@id}" style="display:none"/>
+					<input data-rif="$fc.inputType(item) == &#39;checkbox&#39;" data-i-id="&#39;filter#{@id}&#39;" type="checkbox" data-i-value="#{@index}" data-i-aria-labelledby="filter-label-#{@id}"/>
+					<input data-rif="$fc.inputType(item) == &#39;radio&#39;" data-i-id="&#39;filter#{@id}&#39;" type="radio" data-i-name="&#39;filter_name#{@pid}&#39;" data-i-value="&#39;#{@index}&#39;" data-i-aria-labelledby="filter-label-#{@id}"/>
 					<label data-i-for="&#39;filter#{@id}&#39;" data-i-title="item.display" data-class="tag-parent: #{@itemkey}.children; checked: KEY_PROJECT_TAG_STATES#{@path}" data-i-id="filter-label-#{@id}" role="checkbox" data-attr="aria-checked: Boolean(@KEY_PROJECT_TAG_STATES#{@path})" tabindex="0">
 						<span aria-hidden="true" data-itext="item.display"></span>
 					</label>
@@ -281,19 +267,17 @@
 		<div class="topic main" data-css="left: sidebar_width | screen: &#39;desktop&#39;, dir: &#39;ltr&#39;; right: sidebar_width | screen: &#39;desktop&#39;, dir: &#39;rtl&#39;" data-class="sidebar-opened: $mc.isSidebarTab(@KEY_ACTIVE_TAB); desktop-sidebar-hidden: @.l.desktop_sidebar_visible == false || @.l.desktop_sidebar_available === false; " role="main">
 			<div class="functionholder" role="banner">
 				<div data-repeat="@KEY_CUSTOM_BUTTONS" data-attr="class: &#39;#{class}&#39;" data-rif="item.align !== &#39;left&#39;" data-i-data-if="item.show">
-					<a data-i-title="item.title" data-iattr="aria-label: item.title" data-i-href="item.href || &#39;#&#39;" data-i-onmouseover="item.onmouseover" data-i-onclick="!item.href ? item.onclick : null" data-i-onload="item.onload"> 
-								<span style="color: transparent; display: none;" data-html="&#39;#{title}&#39;"></span></a>
-								<style display="none" data-i-onload="item.onload"></style>
+					<a data-attr="aria-label,title: @KEY_LNG.#{title} || #{title}; role: &#39;button&#39;; id: &#39;custom-button-&#39; + (#{id} || #{@index})" data-i-href="item.href || &#39;#&#39;"> 
+					</a>
+								<span data-i-onload="item.onload"></span>
 				  </div>
 				<div class="brs_previous" data-attr="title:@KEY_LNG.Prev" data-css="display: @.l.brsBack?&#39;block&#39;:&#39;none&#39;">
 					<a id="browseSeqBack" class="wBSBackButton" data-rhwidget="Basic" data-attr="href:.l.brsBack; aria-label:@KEY_LNG.Prev" data-css="visibility: @.l.brsBack?&#39;visible&#39;:&#39;hidden&#39;"> 
-						<span style="color:transparent; display: none;" data-html="@KEY_LNG.Prev"></span>
 					</a>
 					<?rh-msp-bs-back-end ?>
 				</div>
 				<div class="brs_next" data-attr="title:@KEY_LNG.Next" data-css="display: @.l.brsNext?&#39;block&#39;:&#39;none&#39;">
 					<a id="browseSeqNext" class="wBSNextButton" data-rhwidget="Basic" data-attr="href:.l.brsNext; aria-label:@KEY_LNG.Next" data-css="visibility: @.l.brsNext?&#39;visible&#39;:&#39;hidden&#39;"> 
-						<span style="color:transparent; display: none;" data-html="@KEY_LNG.Next"></span>
 					</a>
 					<?rh-msp-bs-next-end ?>
 				</div>
@@ -325,23 +309,17 @@
 		</div>
 		<!-- Social media buttons -->
 		<div class="social_buttons" data-if="@KEY_FEATURE.social === true &amp;&amp; (@KEY_SCREEN_PHONE == false || (@KEY_SCREEN_PHONE == true &amp;&amp; $mc.isSidebarTab(@KEY_ACTIVE_TAB) != true &amp;&amp; $mc.isSearchMode(@KEY_ACTIVE_TAB, @active_content) != true &amp;&amp; @KEY_ACTIVE_TAB != &#39;filter&#39;))" data-attr="aria-hidden: !@KEY_FEATURE.social" data-class="opened: @.l.social_opened === true;" role="dialog">
-			<a class="social_buttons_controller" href="javascript:rh.model.publish(&#39;l.social_opened&#39;, rh.model.get(&#39;l.social_opened&#39;) === true ? false : true)" aria-label="">
+			<a class="social_buttons_controller" href="#" data-click="@.l.social_opened(!@.l.social_opened)" aria-label="">
 				<span class="rh-hide" aria-hidden="true" data-html="@KEY_LNG.Back"></span>
 			</a>
 			<div class="fb-button" data-if="KEY_FEATURE.facebook">
-				<iframe id="bf-iframe" style="border:none; overflow:hidden;"></iframe>
+				<iframe id="bf-iframe"></iframe>
 			</div>
 			<div class="twitter-button" id="twitter-holder" data-if="KEY_FEATURE.twitter"></div>
 		</div>
 		<!-- Scripts -->
 		<script src="template/Charcoal_Grey/usersettings.js" type="text/javascript"></script>
-		<script>//<![CDATA[
-
-		if(useTwitter === true) {
-			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-		}
-		
-//]]></script>
+		<script type="text/javascript" src="template/scripts/social_utils.min.js"></script>
 		
 		
 

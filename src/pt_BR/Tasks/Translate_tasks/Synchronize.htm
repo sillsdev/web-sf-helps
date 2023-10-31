@@ -2,46 +2,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 
-  <script type="text/javascript" language="JavaScript">
-    //<![CDATA[
-    function reDo() {
-      if (innerWidth != origWidth || innerHeight != origHeight)
-        location.reload();
-    }
-    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-      origWidth = innerWidth;
-      origHeight = innerHeight;
-      onresize = reDo;
-    }
-    onerror = null;
-  //]]>
-  </script>
-  <style type="text/css">/*<![CDATA[*/
 
-    < !-- div.WebHelpPopupMenu {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      z-index: 4;
-      visibility: hidden;
-    }
-
-    p.WebHelpNavBar {
-      text-align: right;
-    }
-
-    -->
-  
-/*]]>*/</style>
-
-  <script type="text/javascript">//<![CDATA[
-
-    gRootRelPath = "../..";
-    gCommonRootRelPath = "../..";
-    gTopicId = "3.4.0_6";
-  
-//]]></script>
-
+  <meta name="gRootRelPath" content="../.."/>
+	<meta name="gCommonRootRelPath" content="../.."/>
+  <meta name="gTopicId" content="3.4.0_5"/>
   <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
   <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
   <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
@@ -52,10 +16,10 @@
   <meta name="topic-status" content="Draft"/>
 <link rel="StyleSheet" href="../../assets/css/Help.css" type="text/css"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
   <title>Sincronizar</title>
   
-  <meta name="rh-index-keywords" content="Sincronizar,Sincronizar:Sincronizar,Notas de Tradução"/>
+  <meta name="rh-index-keywords" content="Synchronize,Synchronize:Synchronize,Translation Notes"/>
 </head>
 
 <body>
@@ -63,8 +27,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Sincronizar">
-        <span>Sincronizar</span>
+      <div class="title" title="Ajuda do Scripture Forge">
+        <span>Ajuda do Scripture Forge</span>
       </div>
       <div class="gotohome" title="Clique aqui para ver esta página no seu contexto completo">
         <a href="#" onclick="rh._.goToFullLayout()">Clique aqui para ver esta página no seu contexto completo</a>
@@ -81,7 +45,7 @@
 <p>&#160;</p>
 <div>
   <h1>Sincronizar</h1>
-  <p class="BodyText">Pessoas com a <a href="../../Concepts/Roles.htm">função </a> de <span class="Emphasis">Administrador</span> ou <span class="Emphasis">Tradutor</span> podem executar estas etapas para sincronizar este projeto do Scripture Forge com o repositório do Paratext. Isto inclui as notas mais recentes que aparecem no Paratext. </p>
+  <p class="BodyText">Pessoas com a <a href="../../Concepts/Roles.htm">função </a> de <span class="Emphasis">Administrador</span> ou <span class="Emphasis">Tradutor</span> podem executar estas etapas para sincronizar este projeto do Scripture Forge com o repositório do Paratext. Isto inclui as notas mais recentes que aparecem no Paratext.  You (Admin) might want to review <a href="../Administrator_tasks/Work_with_answers.htm">Work with answers</a>.</p>
   <ol style="list-style: decimal;">
     <li>
       <p class="BodyText"><a href="../Basic_tasks/Choose_a_project.htm">Selecionar um projeto</a>.</p>
@@ -105,6 +69,9 @@
     </li>
     <li>
       <p class="BodyText">O indicador de progresso tem um botão <span class="UserInterface">CANCELAR</span> que você pode pressionar para cancelar o processo.</p>
+    </li>
+    <li>
+      <p class="BodyText">When reviewer leaves a <a href="Add_a_comment_Translate.htm">note</a> in the text in Scripture Forge, after a sync, the note in Paratext will be attributed to the Paratext user who did the sync, either an Admin or Translator. There will be not record of the Scripture Forge user who does the sync.</p>
     </li>
   </ul>
   <h4>Tópicos Relacionados</h4>
